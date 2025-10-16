@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './_components/Header';
 
+
 function provider({
   children,
 }: Readonly<{
@@ -9,6 +10,7 @@ function provider({
   return (
     <div>
         <Header/>
+       
         {children}</div>
   )
 }
